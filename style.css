@@ -1,9 +1,11 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
+    background-color: rgb(61, 77, 77);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -27,6 +29,15 @@ body{
     border-top-left-radius: 100%;
 }
 
+.top-left-light.iluminar{
+    background-color: rgb(245, 92, 92);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-top-left-radius: 100%;
+}
+
 .top-right-light{
     background-color: rgb(7, 163, 7);
     grid-column-start: 2;
@@ -36,14 +47,33 @@ body{
     border-top-right-radius: 100%;
 }
 
+.top-right-light.iluminar{
+    background-color: rgb(100, 192, 100);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-top-right-radius: 100%;
+}
+
 .bottom-right-light{
-    background-color: rgb(255, 179, 0);
+    background-color: rgb(218, 152, 0);
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
     border-bottom-right-radius: 100%;
 }
+
+.bottom-right-light.iluminar{
+    background-color: rgb(241, 192, 77);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border-bottom-right-radius: 100%;
+}
+
 .bottom-left-light{
     background-color: rgb(44, 12, 185);
     grid-column-start: 1;
@@ -53,9 +83,27 @@ body{
     border-bottom-left-radius: 100%;
 }
 
+.bottom-left-light.iluminar{
+    background-color: rgb(123, 97, 241);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border-bottom-left-radius: 100%;
+}
+
+
 .btnEmpezar{
-    background-color: chartreuse;
+    background-color: rgb(100, 14, 170);
     position: fixed;
-    
-    
+    width: 500px;
+    height: 70px;
+    border-radius: 30px;
+    margin-top: 225px;
+    border: 0;
+    color: whitesmoke;
+}
+
+.hide{
+    display: none;
 }
